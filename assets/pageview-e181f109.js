@@ -1,0 +1,1 @@
+import{_ as t}from"./app-e44cdf4e.js";const n=async()=>{try{const{pageviewCount:e}=await t(()=>import("./app-e44cdf4e.js").then(r=>r.M),[]);return e({serverURL:"https://waline-comment.vuejs.press"})}catch{console.error("@waline/client is not installed!");return}};export{n as updatePageview};
