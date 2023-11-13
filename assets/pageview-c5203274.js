@@ -1,0 +1,1 @@
+import{_ as t}from"./app-f942e47c.js";const i=async()=>{try{const{pageviewCount:e}=await t(()=>import("./app-f942e47c.js").then(r=>r.M),[]);return e({serverURL:"https://waline-luvsia-blog.vercel.app"})}catch{console.error("@waline/client is not installed!");return}};export{i as updatePageview};
