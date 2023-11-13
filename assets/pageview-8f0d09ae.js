@@ -1,0 +1,1 @@
+import{_ as t}from"./app-4e2bb803.js";const o=async()=>{try{const{pageviewCount:e}=await t(()=>import("./app-4e2bb803.js").then(r=>r.M),[]);return e({serverURL:"https://luvsia-blog.vercel.app"})}catch{console.error("@waline/client is not installed!");return}};export{o as updatePageview};
