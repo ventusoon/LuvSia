@@ -1,0 +1,1 @@
+import{_ as t}from"./app-31d751cb.js";const i=async()=>{try{const{pageviewCount:e}=await t(()=>import("./app-31d751cb.js").then(r=>r.M),[]);return e({serverURL:"https://waline.luvsia.com/"})}catch{console.error("@waline/client is not installed!");return}};export{i as updatePageview};
